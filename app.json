@@ -1,5 +1,5 @@
 {
-    "name": "GOVIND MUSIC",
+    "name": "ＡＲＹＡＮ ＭＵＳＩＣ",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/db8765da6945e3c9333e6.jpg",
     "keywords": [
@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "5348648456",
+        "value": "6200809034",
         "required": true
       },
       "SESSION": {
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/govind_love_n",
+        "value": "https://t.me/MAHAKAL_KI_LADLI",
         "required": false
       }
     },
