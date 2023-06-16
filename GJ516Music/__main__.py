@@ -58,7 +58,7 @@ async def GJ516_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"❇ 𝗚𝗝𝟱𝟭𝟲 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 ❇\n\n⎋ 𝙄𝙙 : `{BOT_ID}`\n⎋ 𝙉𝙖𝙢𝙚 : {BOT_NAME}\n⎋ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 : @{BOT_USERNAME}",
+            f"❇ 𝗡𝗜𝗞𝗞𝗨 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 ❇\n\n⎋ 𝙄𝙙 : `{BOT_ID}`\n⎋ 𝙉𝙖𝙢𝙚 : {BOT_NAME}\n⎋ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -68,7 +68,7 @@ async def GJ516_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"❇ 𝗚𝗝𝟱𝟭𝟲 𝗠𝗨𝗦𝗜𝗖 𝗔𝗦𝗦 ❇\n\n⎋ 𝙄𝙙 : `{ASS_ID}`\n⎋ 𝙉𝙖𝙢𝙚 : {ASS_NAME}\n⎋ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 : @{ASS_USERNAME}",
+            f"❇ 𝗡𝗜𝗞𝗞𝗨 𝗠𝗨𝗦𝗜𝗖 𝗔𝗦𝗦 ❇\n\n⎋ 𝙄𝙙 : `{ASS_ID}`\n⎋ 𝙉𝙖𝙢𝙚 : {ASS_NAME}\n⎋ 𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚 : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -77,16 +77,16 @@ async def GJ516_startup():
 
     await app2.send_message(BOT_USERNAME, "/start")
 
-    LOGGER.info(f"[•] Jay Bot Started As {BOT_NAME}.")
-    LOGGER.info(f"[•] Jay Assistant Started As {ASS_NAME}.")
+    LOGGER.info(f"[•] Aryan Bot Started As {BOT_NAME}.")
+    LOGGER.info(f"[•] Aryan Assistant Started As {ASS_NAME}.")
 
     LOGGER.info(
-        "[•] jay music loaded "
+        "[•] Aryan music loaded "
     )
     await pytgcalls.start()
     await idle()
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(GJ516_startup())
-    LOGGER.error("GJ516 Music Bot Stopped.")
+    asyncio.get_event_loop().run_until_complete(Aryan_startup())
+    LOGGER.error("Aryan Music Bot Stopped.")
